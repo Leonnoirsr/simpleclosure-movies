@@ -23,8 +23,6 @@ The variable must stay server-side (no `NEXT_PUBLIC_` prefix).
 
 ## Run
 
-## Run
-
 Production (as specified in the assignment):
 
     npm i
