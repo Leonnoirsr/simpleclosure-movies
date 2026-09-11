@@ -23,16 +23,21 @@ The variable must stay server-side (no `NEXT_PUBLIC_` prefix).
 
 ## Run
 
+## Run
+
+Production (as specified in the assignment):
+
+    npm i
+    npm start
+
+`npm start` serves a production build, so a `prestart` hook runs `next build` first.
+This makes `npm i && npm start` work from a fresh clone.
+
 Development:
 
     npm run dev
 
 Open http://localhost:3000
-
-This is a Next.js app. `npm start` serves a production build, so it only works after:
-
-    npm run build
-    npm start
 
 ## Layout
 
