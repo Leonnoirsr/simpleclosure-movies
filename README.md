@@ -15,7 +15,7 @@ Changing sort asks TMDB for a new page of results (for example most popular vs h
 
     npm i
 
-Copy `.env.example` to `.env.local` and set the key from the assignment email:
+Copy `.env.example` to `.env.local` and set the key to the provided API key:
 
     TMDB_SC_API_KEY=your_key_here
 
